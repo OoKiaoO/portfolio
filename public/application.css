@@ -1,0 +1,21 @@
+@import "stylesheets/index.css";
+
+/* Fonts */
+
+
+/* Global Styles */
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  padding: 30%;
+  z-index: 2;
+  position: relative;
+}
