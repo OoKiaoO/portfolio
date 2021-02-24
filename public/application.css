@@ -1,7 +1,15 @@
 @import "stylesheets/index.css";
 
 /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500&family=Source+Code+Pro:wght@200;300;400;500&display=swap');
 
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+p, li {
+  font-family: 'Source Code Pro', monospace, sans-serif;
+}
 
 /* Global Styles */
 
@@ -12,10 +20,6 @@
 
 body {
   background-color: white;
+  color: #333333;
 }
 
-header {
-  padding: 30%;
-  z-index: 2;
-  position: relative;
-}
