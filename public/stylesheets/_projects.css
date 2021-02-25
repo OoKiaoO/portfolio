@@ -17,15 +17,38 @@
 .projects {
   position: relative;
   z-index: 2;
-  padding: 0 2%;
+  padding: 3% 4%;
 }
 
 .project-card {
   display: flex;
+  padding: 5% 0;
 }
 
 .screenshot img {
   width: 600px;
   height: 400px;
+}
+
+.description {
+  padding: 3% 11% 2% 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#project-title {
+  font-size: 5rem;
+  padding-bottom: 6%;
+  margin: 0;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+}
+
+#project-description {
+  font-size: 1.5rem;
+  padding: 5% 0;
+  margin: 0;
+  flex-grow: 1;
 }
 
