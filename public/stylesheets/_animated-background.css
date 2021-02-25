@@ -22,7 +22,7 @@
   }
 }
 
-.static-dot {
+.corner-dot {
   --small-size: 500px;
   display: block;
   position: absolute;

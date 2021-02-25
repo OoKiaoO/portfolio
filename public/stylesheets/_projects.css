@@ -1,0 +1,31 @@
+.static-dot {
+  --small-size: 500px;
+  display: block;
+  position: absolute;
+  width: calc(var(--small-size) * 1.5);
+  height: calc(var(--small-size) * 2);
+  left: 0;
+  top: 0;
+  mix-blend-mode: soft-light;
+  border-radius: var(--small-size);
+  filter: blur(calc(var(--small-size) / 6));
+  z-index: 1;
+  background: rgb(18, 123, 243);
+  background: linear-gradient(135deg, rgba(249,248,113,1) 28%, rgba(255,255,255,0) 99%);
+}
+
+.projects {
+  position: relative;
+  z-index: 2;
+  padding: 0 2%;
+}
+
+.project-card {
+  display: flex;
+}
+
+.screenshot img {
+  width: 600px;
+  height: 400px;
+}
+
