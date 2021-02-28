@@ -25,6 +25,10 @@
   padding: 5% 0;
 }
 
+.screenshot {
+  box-shadow: 5px 9px 7px -3px rgb(210 220 205);
+}
+
 .screenshot img {
   width: 600px;
   height: 400px;

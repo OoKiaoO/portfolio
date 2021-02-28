@@ -1,0 +1,30 @@
+.about {
+  display: flex;
+  padding: 7% 0;
+  margin: 0 15%;
+  z-index: 2;
+  position: relative;
+  border-top: 1px solid #333333;
+  justify-content: space-between;
+  border-bottom: 1px solid #333333;
+}
+
+.about-me {
+  padding-right: 15%;
+}
+
+.about-me h3 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.about-me p {
+  font-size: 1.5rem;
+  padding-top: 4%;
+}
+
+.profile-pic img {
+  height: 300px;
+  width: 300px;
+  border-radius: 45px;
+}
