@@ -55,16 +55,16 @@
 }
  
   .dot--one {
-    background: #845EC2;
+    background:  #845EC2; /* #ed2456; */
   }
   
   .dot--two {
-    background: #FF6F91;
+    background: #0089BA; /* #F48937; */
     animation-delay: -7s;
   }
   
   .dot--three {
-    background: #FF6F91;
+    background: #008F7A; /* #bd3690; */
     animation-delay: -14s;
   }
 

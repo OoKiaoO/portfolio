@@ -10,8 +10,8 @@
   border-radius: var(--small-size);
   filter: blur(calc(var(--small-size) / 6));
   z-index: 1;
-  background: rgb(18, 123, 243);
-  background: linear-gradient(135deg, rgba(249,248,113,1) 28%, rgba(255,255,255,0) 99%);
+  /* background: rgba(132, 94, 194, 1); */
+  background: linear-gradient(135deg, rgba(132, 94, 194, 1) 28%, rgba(255,255,255,0) 99%);
 }
 
 .projects {
