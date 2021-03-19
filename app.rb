@@ -11,17 +11,17 @@ get '/' do
   erb :index
 end
 
-get '/project1' do
-  erb :about
-end
+# get '/project1' do
+#   erb :about
+# end
 
-get '/project2' do
-  erb :about
-end
+# get '/project2' do
+#   erb :about
+# end
 
-get '/project3' do
-  erb :about
-end
+# get '/project3' do
+#   erb :about
+# end
 
 get '/about' do
   erb :about

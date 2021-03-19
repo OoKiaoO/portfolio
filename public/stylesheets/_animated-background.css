@@ -54,19 +54,19 @@
   z-index: 1;
 }
  
-  .dot--one {
-    background:  #845EC2; /* #ed2456; */
-  }
-  
-  .dot--two {
-    background: #0089BA; /* #F48937; */
-    animation-delay: -7s;
-  }
-  
-  .dot--three {
-    background: #008F7A; /* #bd3690; */
-    animation-delay: -14s;
-  }
+.dot--one {
+  background: #845EC2;
+}
+
+.dot--two {
+  background:#0081CF;
+  animation-delay: -7s;
+}
+
+.dot--three {
+  background: #008F7A;
+  animation-delay: -14s;
+}
 
 @keyframes dot-animation {
   0% {
