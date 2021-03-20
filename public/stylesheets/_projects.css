@@ -25,13 +25,25 @@
   padding: 5% 0;
 }
 
-.screenshot {
+.project-mockup {
+  display: flex;
+}
+
+.mockup {
   box-shadow: 5px 9px 7px -3px rgb(210 220 205);
 }
 
 .screenshot img {
   width: 600px;
   height: 400px;
+}
+
+.mobile {
+  width: 250px;
+  height: 425px;
+  overflow: hidden;
+  border-radius: 30px;
+  margin: 10px;
 }
 
 .description {
