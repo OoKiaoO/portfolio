@@ -85,6 +85,10 @@
   font-size: 2rem;
 }
 
+.project-links a:hover {
+  text-decoration: none;
+}
+
 .project-links i {
   padding-right: 1%;
 }
