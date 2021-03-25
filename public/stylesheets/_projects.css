@@ -43,11 +43,11 @@
   height: 425px;
   overflow: hidden;
   border-radius: 30px;
-  margin: 10px;
+  margin: 10px 150px;
 }
 
 .description {
-  padding: 3% 11% 2% 12%;
+  padding: 1% 5% 1% 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,10 +61,31 @@
   border-bottom: 1px solid #333;
 }
 
-#project-description {
-  font-size: 1.5rem;
-  padding: 5% 0;
-  margin: 0;
+.project-description {
+  /* padding: 5% 0; */
   flex-grow: 1;
+}
+
+.project-description p {
+  font-size: 1.6rem;
+}
+
+.dev-icons {
+  display: flex;
+  padding: 2% 0;
+  font-size: 5rem;
+}
+
+.dev-icons i {
+  padding-right: 2%;
+}
+
+.project-links {
+  padding: 2% 0;
+  font-size: 2rem;
+}
+
+.project-links i {
+  padding-right: 1%;
 }
 

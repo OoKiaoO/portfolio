@@ -15,12 +15,20 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 7rem;
-  padding-left: 5%;
+  padding-bottom: 5%;
   color: #222223;
 }
 
 p {
   font-size: 2rem;
-  padding-top: 7%;
+  /* padding-top: 7%; */
   font-weight: 300;
+}
+
+#header-subtext {
+  line-height: 25px;
+}
+
+#callTA {
+  padding-top: 4%;
 }
